@@ -18,9 +18,6 @@
 {
     [super viewDidLoad];
     
-    //Torch State
-    torchState = 0;
-    
     // Scan for barcode
     UIBarButtonItem *scan = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(options)];
     self.navigationItem.rightBarButtonItem = scan;
