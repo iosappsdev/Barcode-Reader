@@ -21,6 +21,7 @@
 		9B49EF30192C48EF00EE1B12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B49EF12192C48EF00EE1B12 /* UIKit.framework */; };
 		9B49EF38192C48EF00EE1B12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B49EF36192C48EF00EE1B12 /* InfoPlist.strings */; };
 		9B49EF3A192C48EF00EE1B12 /* barcodeReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B49EF39192C48EF00EE1B12 /* barcodeReaderTests.m */; };
+		9B49EF45192C494A00EE1B12 /* BCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B49EF44192C494A00EE1B12 /* BCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9B49EF35192C48EF00EE1B12 /* barcodeReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "barcodeReaderTests-Info.plist"; sourceTree = "<group>"; };
 		9B49EF37192C48EF00EE1B12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B49EF39192C48EF00EE1B12 /* barcodeReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = barcodeReaderTests.m; sourceTree = "<group>"; };
+		9B49EF43192C494A00EE1B12 /* BCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCViewController.h; sourceTree = "<group>"; };
+		9B49EF44192C494A00EE1B12 /* BCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				9B49EF20192C48EF00EE1B12 /* Main.storyboard */,
 				9B49EF23192C48EF00EE1B12 /* ViewController.h */,
 				9B49EF24192C48EF00EE1B12 /* ViewController.m */,
+				9B49EF43192C494A00EE1B12 /* BCViewController.h */,
+				9B49EF44192C494A00EE1B12 /* BCViewController.m */,
 				9B49EF26192C48EF00EE1B12 /* Images.xcassets */,
 				9B49EF15192C48EF00EE1B12 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B49EF25192C48EF00EE1B12 /* ViewController.m in Sources */,
+				9B49EF45192C494A00EE1B12 /* BCViewController.m in Sources */,
 				9B49EF1F192C48EF00EE1B12 /* AppDelegate.m in Sources */,
 				9B49EF1B192C48EF00EE1B12 /* main.m in Sources */,
 			);
@@ -456,6 +462,7 @@
 				9B49EF3F192C48EF00EE1B12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B49EF40192C48EF00EE1B12 /* Build configuration list for PBXNativeTarget "barcodeReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				9B49EF42192C48EF00EE1B12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
